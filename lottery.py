@@ -6,7 +6,7 @@ print(""" Welcome to lottery game! Guess numbers and if you guess correctly, you
 print("Guess five numbers from 1-100 and press enter after each number: ")
 
 #user input
-user_numbers = [int(input(" ")) for user in range(5)]
+user_numbers = [int(input("Enter a number: ")) for user in range(5)]
 
 #list of random numbers between 1 and 100
 winning_numbers = [random.randint(1,100) for win in range(5)]
